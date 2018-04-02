@@ -1,7 +1,7 @@
 Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
 
 
-<font size="50" color="red">兼容 HTML</font>
+<p style="font-size:50px;color:red">兼容 HTML</p>
 <h1>这是一个h1标签</h1>
 <p>下面是一个table</p>
 <table>
@@ -18,7 +18,7 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 <p>这是另一个段落</p>
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522648151172&di=8565cbbedd82189fba18e0eae41c8235&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3Db6ac6f0a753e6709aa0d4dbc53aef548%2Fc83d70cf3bc79f3de9f6771db0a1cd11728b2983.jpg" style="width:100px">
 
-<font size="50" color="red">标题</font>
+<p style="font-size:50px;color:red">标题</p>
 
 # 这是h1
 ## 这是h2
@@ -33,7 +33,7 @@ This is an H1
 This is an H2
 -
 
-<font size="50" color="red">引用</font> 
+<p style="font-size:50px;color:red">引用</p> 
 >  This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
@@ -59,7 +59,7 @@ id sem consectetuer libero luctus adipiscing.
 * 不以结婚为目的的恋爱都叫耍流氓
   > 这是毛主席说的
 
-<font size="50" color="red">表格</font> 
+<p style="font-size:50px;color:red">表格</p> 
 
 |Tables|Are|Cool|
 |:-|:-:|-:|	
@@ -68,7 +68,7 @@ id sem consectetuer libero luctus adipiscing.
 |zebra stripes| are neat|$1|
 
 
-<font size="50" color="red">列表</font>   
+<p style="font-size:50px;color:red">列表</p>   
 无序列表
 
 * Red
@@ -93,7 +93,7 @@ helloword
 8. Parish
 
 
-<font size="50" color="red">代码块</font>  
+<p style="font-size:50px;color:red">代码块</p>  
 
 通常编辑器根据代码片段适配合适的高亮方法，但你也可以用 ``` 包裹一段代码，并指定一种语言
 
@@ -122,7 +122,7 @@ console.log(num);
 
 
 
-<font size="50" color="red">插入链接</font>   
+<p style="font-size:50px;color:red">插入链接</p>   
 1. 内链式：    
 [百度1](http://www.baidu.com/" "Title")  
 下面是一个图片
@@ -135,7 +135,7 @@ console.log(num);
 <http://www.cnnic.cn>  
 <jidongdong@cnnic.cn>
 
-<font size="50" color="red">任务列表</font>   
+<p style="font-size:50px;color:red">任务列表</p>   
 这是文字……
 
 - [x] 选项一
@@ -143,7 +143,7 @@ console.log(num);
 - [ ]  [选项3]
 
 
-<font size="50" color="red">文本样式</font>   
+<p style="font-size:50px;color:red">文本样式</p>   
 加粗 :**Bold**  
 斜体字 :*Italics*  
 *删除线 :~~text~~  
@@ -160,7 +160,7 @@ console.log(num);
 
 ~~删除线~~
 
-<font size="50" color="red">分割线</font>  
+<p style="font-size:50px;color:red">分割线</p>  
 分割线可以由* - _（星号，减号，下划线）这3个符号其中一个的至少3个表示，注意至少要3个，且不需要连续，有空格也可以  
 ***
 1
@@ -172,26 +172,26 @@ ___
 
 
 
-<font size="50" color="red">换行</font>  
+<p style="font-size:50px;color:red">换行</p>  
 如果另起一行，只需在当前行结尾加 2 个空格
 
 如果是要起一个新段落，只需要空出一行即可。  
 
 
-<font size="50" color="red">公式</font>   
+<p style="font-size:50px;color:red">公式</p>   
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
 
 $$
 x \href{why-equal.html}{=} y^2 + 1
 $$
 
-<font size="50" color="red">Emoji</font>   
+<p style="font-size:50px;color:red">Emoji</p>   
 github表情  
 :smile: :bowtie: :+1: :clap: :octocat:  
 下面链接可以查看支持的emoji及其代码：
 > https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
-<font size="50" color="red">流程图</font>   
+<p style="font-size:50px;color:red">流程图</p>   
 ```sequence
     起床->吃饭: 稀饭油条
     吃饭->上班: 不要迟到了
@@ -204,6 +204,6 @@ github表情
     Note left of 起床: 新的一天
 ```
 
-<font size="50" color="red">脚注</font>   
+<p style="font-size:50px;color:red">脚注</p>   
 生前何必贪睡？死后自会长眠！[^1]  
 [^1]:引用自潘韬撰写的《睡眠经》第一章第一节
