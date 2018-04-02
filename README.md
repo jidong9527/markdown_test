@@ -1,3 +1,5 @@
+Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
+
 
 <font size="50" color="red">兼容 HTML</font>
 <h1>这是一个h1标签</h1>
@@ -141,7 +143,18 @@ console.log(num);
 - [ ]  [选项3]
 
 
-<font size="50" color="red">强调</font>   
+<font size="50" color="red">文本样式</font>   
+加粗 :**Bold**  
+斜体字 :*Italics*  
+*删除线 :~~text~~  
+*高亮 : ==text==  
+段落 : 段落之间空一行  
+换行符 : 一行结束时输入两个空格  
+列表 :* 添加星号成为一个新的列表项。  
+引用 :> 引用内容  
+内嵌代码 : `alert('Hello World');`  
+
+
 *字体倾斜*  _字体倾斜_  
 **字体加粗**  __字体加粗__
 
@@ -172,10 +185,13 @@ $$
 x \href{why-equal.html}{=} y^2 + 1
 $$
 
-
+<font size="50" color="red">Emoji</font>   
 github表情  
-:smile: :bowtie: :+1: :clap: :octocat:
+:smile: :bowtie: :+1: :clap: :octocat:  
+下面链接可以查看支持的emoji及其代码：
+> https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
+<font size="50" color="red">流程图</font>   
 ```sequence
     起床->吃饭: 稀饭油条
     吃饭->上班: 不要迟到了
@@ -187,3 +203,7 @@ github表情
     回家-->>起床:
     Note left of 起床: 新的一天
 ```
+
+<font size="50" color="red">脚注</font>   
+生前何必贪睡？死后自会长眠！[^1]  
+[^1]:引用自潘韬撰写的《睡眠经》第一章第一节
